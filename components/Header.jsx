@@ -62,7 +62,11 @@ const Header = () => {
                   </Button>
                </ScrollLink>
                {/* Mobile Nav */}
-               <NavMobile containerStyles="xl:hidden" />
+               <NavMobile
+                  containerStyles="xl:hidden"
+                  iconStyles="text-3xl"
+                  linkStyles="uppercase"
+               />
             </div>
          </div>
       </header>
