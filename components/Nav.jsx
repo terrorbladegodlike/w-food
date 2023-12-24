@@ -1,25 +1,25 @@
 // Import Link from React-Scroll
-import { Link } from "react-scroll"
+import { Link } from 'react-scroll'
 
 const links = [
    {
-      path: "home",
-      name: "home",
+      path: 'home',
+      name: 'home',
       offset: -50,
    },
    {
-      path: "menu",
-      name: "menu",
+      path: 'menu',
+      name: 'menu',
       offset: -50,
    },
    {
-      path: "about",
-      name: "about",
+      path: 'about',
+      name: 'about',
       offset: -150,
    },
    {
-      path: "contact",
-      name: "home",
+      path: 'contact',
+      name: 'contact',
       offset: 0,
    },
 ]
